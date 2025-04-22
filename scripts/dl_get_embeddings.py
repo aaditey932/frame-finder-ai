@@ -8,7 +8,7 @@ import numpy as np
 from typing import List, Dict, Union, Optional, Tuple
 
 
-def load_clip_model(model_name: str = 'RN101', device: Optional[str] = None) -> Tuple:
+def load_clip_model(model_name: str = 'RN50', device: Optional[str] = None) -> Tuple:
     """
     Load a CLIP model.
     
