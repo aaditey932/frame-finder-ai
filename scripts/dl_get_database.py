@@ -21,7 +21,7 @@ def initialize_pinecone(api_key: str) -> Pinecone:
 def create_pinecone_index(
     pc: Pinecone, 
     index_name: str, 
-    dimension: int = 512, 
+    dimension: int = 1024, 
     metric: str = "cosine",
     cloud: str = "aws",
     region: str = "us-east-1"

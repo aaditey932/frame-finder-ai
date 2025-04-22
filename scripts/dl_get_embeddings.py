@@ -63,7 +63,7 @@ def get_image_embedding(
 def generate_embeddings_for_dataset(
     metadata_df: pd.DataFrame,
     images_dir: str,
-    model_name: str = 'RN101',
+    model_name: str = 'RN50',
     device: Optional[str] = None
 ) -> pd.DataFrame:
     """
