@@ -10,6 +10,6 @@ scikit-image
 scikit-learn
 scipy
 streamlit
-torch==1.4.0+cpu 
-torchvision==0.5.0+cpu
+torch 
+torchvision
 Wikipedia-API
