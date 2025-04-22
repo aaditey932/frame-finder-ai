@@ -10,6 +10,5 @@ scikit-image==0.25.2
 scikit-learn==1.6.1
 streamlit==1.44.1
 torch==2.6.0
-torchvision==
 tqdm==4.67.1
 Wikipedia-API==0.8.1
