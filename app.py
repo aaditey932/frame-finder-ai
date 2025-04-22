@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 import sys
 import torch
 # Prevent Streamlit from accessing torch.classes and crashing
-if hasattr(torch, 'classes'):
-    delattr(torch, 'classes')
+#if hasattr(torch, 'classes'):
+#    delattr(torch, 'classes')
 
 from scripts.dl_get_preprocessing import crop_largest_rect_from_pil
 from scripts.dl_get_database import initialize_pinecone, create_pinecone_index, query_image
